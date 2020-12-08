@@ -1,0 +1,56 @@
+body{
+    background: linear-gradient(180deg, #feac5e 0%, #c779d0, #4bc0c8 100%);
+    background-repeat: no-repeat;
+    height:100vh
+    
+}
+
+.orange{
+
+    background: #feac5e;
+    border-color: #feac5e;
+    color: #ffcb9a;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.orange:hover {
+
+    background: #ffcb9a;
+    border-color: #ffcb9a;
+    color: #feac5e;
+    font-weight: bold;
+}
+
+.pink{
+    background: #c779d0;
+    border-color:  #c779d0;
+    color:#d2a5e9;
+    font-weight: bold;    
+    margin-top: 150px;
+}
+
+.pink:hover {
+
+    background:#d5b1e7;
+    border-color:#d2a5e9;
+    color:  #c779d0;
+    font-weight: bold;  
+}
+
+.green{
+
+    background:  #4bc0c8;
+    border-color: #4bc0c8;
+    color: white;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+.green:hover {
+
+    background:#f64f59;
+    border-color: #f64f59;
+    color:  #12c2e9;
+    font-weight: bold;
+}
