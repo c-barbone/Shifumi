@@ -1,7 +1,7 @@
 body{
     background: linear-gradient(180deg, #feac5e, #c779d0, #4bc0c8);
     background-repeat: no-repeat;
-    height:100vh !important;
+    min-height:100vh ;
     /* overflow: hidden; */
     font-family: 'Long Cang', cursive;
     
@@ -80,4 +80,13 @@ button{
 .green:hover,.pink:hover,.orange:hover{
 	-webkit-transform: rotate(0) scale(1);
 	transform: rotate(0) scale(1);
+}
+
+@media (max-width:360px){
+    button{
+      font-size: 19px !important;  
+    }   
+    #resultat{
+        font-size: 40px;
+    }
 }
